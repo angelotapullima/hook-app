@@ -1,17 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom/client'; 
+//import {MultipleCustomHooks} from './components/03-examples/MultipleCustomHooks';
+import { FocusScreen } from './components/04-useRef/FocusScreen';
+import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+   
+    /* Rendering the CounterApp component. */
+    <RealExampleRef /> 
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ 
